@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d763322-33dc-4f69-a9ee-ba8bfd503682" name="Changes" comment="readme update" />
+    <list default="true" id="0d763322-33dc-4f69-a9ee-ba8bfd503682" name="Changes" comment="readme update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/draken/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/draken/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/draken/TicTacToeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/draken/TicTacToeController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1725877304021</updated>
       <workItem from="1725877305030" duration="4743000" />
+      <workItem from="1725883072734" duration="920000" />
     </task>
     <task id="LOCAL-00001" summary="initial concept">
       <option name="closed" value="true" />
@@ -117,9 +122,31 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial concept" />
     <MESSAGE value="readme update" />
     <option name="LAST_COMMIT_MESSAGE" value="readme update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/draken/TicTacToeController.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
