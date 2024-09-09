@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d763322-33dc-4f69-a9ee-ba8bfd503682" name="Changes" comment="readme update">
+    <list default="true" id="0d763322-33dc-4f69-a9ee-ba8bfd503682" name="Changes" comment="add artificial opponent intelligence">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/draken/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/draken/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/draken/TicTacToe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/draken/TicTacToeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/draken/TicTacToeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +68,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "JUnit.AppTest.executor": "Debug",
+    "JUnit.AppTest.testPlayerSwitching.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.Draken-tic-tac-toe [clean].executor": "Run",
     "Maven.Draken-tic-tac-toe [compile].executor": "Run",
+    "Maven.Draken-tic-tac-toe [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true",
@@ -81,6 +85,29 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="AppTest.testPlayerSwitching" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Draken-tic-tac-toe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.draken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.draken" />
+      <option name="MAIN_CLASS_NAME" value="org.draken.AppTest" />
+      <option name="METHOD_NAME" value="testPlayerSwitching" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.testPlayerSwitching" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -98,7 +125,8 @@
       <option name="presentableId" value="Default" />
       <updated>1725877304021</updated>
       <workItem from="1725877305030" duration="4743000" />
-      <workItem from="1725883072734" duration="920000" />
+      <workItem from="1725883072734" duration="1220000" />
+      <workItem from="1725884329166" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="initial concept">
       <option name="closed" value="true" />
@@ -116,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725882316851</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add artificial opponent intelligence">
+      <option name="closed" value="true" />
+      <created>1725884082574</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725884082574</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +172,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial concept" />
     <MESSAGE value="readme update" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme update" />
+    <MESSAGE value="add artificial opponent intelligence" />
+    <option name="LAST_COMMIT_MESSAGE" value="add artificial opponent intelligence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -145,6 +182,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/draken/TicTacToeController.java</url>
           <line>53</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/draken/AppTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
